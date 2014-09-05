@@ -13,7 +13,8 @@ root 'quotes#index'
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
+resources :quotes
+get 'about', :to => 'quotes#about'
   # Example resource route with options:
   #   resources :products do
   #     member do
