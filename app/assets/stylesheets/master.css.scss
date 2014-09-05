@@ -40,7 +40,7 @@
 	border-bottom: 1px solid #71F246;
 	font-family: 'sinkin_sans400_regular';
 	font-weight: bold;
-	
+
 }
 
 header {
@@ -59,4 +59,17 @@ h1 {
 
 h2 {
 	font-family: 'Coming Soon', cursive;
+}
+
+.next-quote {
+	color: F24646;
+	font-family: 'sinkin_sans400_regular';
+	font-size: 10px;
+}
+
+.footer-blurb {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+     font-style: italic;
+     text-align: right;
+     text-size: 10px;
 }

@@ -8,6 +8,7 @@
 </head>
 <body>
      <header>
+     	<div class="col-xs-3">
      	 <div class="circle">
  			 <br />
 			 You know
@@ -16,6 +17,7 @@
   			 <br />
   			 to code
 		 </div>
+		</div>
      	 <div class="col-xs-4 slogan">
      	     Splurting out unsolictied advice about entrepreneurchip since 2014
      	 </div>
@@ -28,8 +30,21 @@
      <hr />
 
      <br class="clear" />
-
+<div class="container">
 <%= yield %>
+</div>
+
+<div id="footer">
+     <div class="container">
+          <div class="col-xs-6">
+          	<%= link_to "This isn't enough, I need more!", "#", :class => 'next-quote' %>
+          </div>
+          <div class="col-xs-6 footer-blurb">
+          	Proudly hacked in Austin, TX by <a href="http://thefirehoseproject.com">Todd</a><br />
+          	Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+          </div>
+     </div>
+</div>
 
 </body>
 </html>
